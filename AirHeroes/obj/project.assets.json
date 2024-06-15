@@ -1,0 +1,225 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Syncfusion.Compression.Net.Core/22.1.34": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Syncfusion.Compression.Portable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Compression.Portable.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/22.1.34": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.OfficeChart.Net.Core/22.1.34": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "22.1.34"
+        },
+        "compile": {
+          "lib/net6.0/Syncfusion.OfficeChart.Portable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.OfficeChart.Portable.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Presentation.Net.Core/22.1.34": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "22.1.34",
+          "Syncfusion.Licensing": "22.1.34",
+          "Syncfusion.OfficeChart.Net.Core": "22.1.34"
+        },
+        "compile": {
+          "lib/net6.0/Syncfusion.Presentation.Portable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Presentation.Portable.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Syncfusion.Compression.Net.Core/22.1.34": {
+      "sha512": "6jCisV+WHSMxXRyB6jehTLB4GP+P3iCicRYwT86ypcEH+9foIGjOgBvr2Fkg0KkTeKBkmBeBheB50XnAytFobg==",
+      "type": "package",
+      "path": "syncfusion.compression.net.core/22.1.34",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net6.0/Syncfusion.Compression.Portable.dll",
+        "lib/net6.0/Syncfusion.Compression.Portable.xml",
+        "lib/net7.0/Syncfusion.Compression.Portable.dll",
+        "lib/net7.0/Syncfusion.Compression.Portable.xml",
+        "lib/netstandard2.0/Syncfusion.Compression.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.Compression.Portable.xml",
+        "syncfusion.compression.net.core.22.1.34.nupkg.sha512",
+        "syncfusion.compression.net.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Licensing/22.1.34": {
+      "sha512": "jsvGrJgBc2KUMhUbLc1QPTqZkSHEZsUiPOcmu6DDvhYIV9cv1z83gohwHfmtFaRfBVezW7Dhn1qehHSOPIMo/w==",
+      "type": "package",
+      "path": "syncfusion.licensing/22.1.34",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.22.1.34.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.OfficeChart.Net.Core/22.1.34": {
+      "sha512": "jO+9Fjm65ctlJNtOJs2BmXH2240qI3uJfQfTmnz+H2OZ3kf1ljknz2XqKNxFuIZ2F0H8vCZNcWDYtlYw+d4pHA==",
+      "type": "package",
+      "path": "syncfusion.officechart.net.core/22.1.34",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net6.0/Syncfusion.OfficeChart.Portable.dll",
+        "lib/net6.0/Syncfusion.OfficeChart.Portable.xml",
+        "lib/net7.0/Syncfusion.OfficeChart.Portable.dll",
+        "lib/net7.0/Syncfusion.OfficeChart.Portable.xml",
+        "lib/netstandard2.0/Syncfusion.OfficeChart.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.OfficeChart.Portable.xml",
+        "syncfusion.officechart.net.core.22.1.34.nupkg.sha512",
+        "syncfusion.officechart.net.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Presentation.Net.Core/22.1.34": {
+      "sha512": "kBWDxoknFKCPpbxR1jNW7cwjDZY721v2w3amzLH5KouN6nxhdfQqKoFodHw+TBCIg1YiDeOv5A0/Dx4eXcmaQg==",
+      "type": "package",
+      "path": "syncfusion.presentation.net.core/22.1.34",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net6.0/Syncfusion.Presentation.Portable.dll",
+        "lib/net6.0/Syncfusion.Presentation.Portable.xml",
+        "lib/net7.0/Syncfusion.Presentation.Portable.dll",
+        "lib/net7.0/Syncfusion.Presentation.Portable.xml",
+        "lib/netstandard2.0/Syncfusion.Presentation.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.Presentation.Portable.xml",
+        "syncfusion.presentation.net.core.22.1.34.nupkg.sha512",
+        "syncfusion.presentation.net.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Syncfusion.Presentation.Net.Core >= 22.1.34"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ivaylo Kartev\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Ivaylo Kartev\\source\\repos\\AirHeroes\\AirHeroes\\AirHeroes.csproj",
+      "projectName": "AirHeroes",
+      "projectPath": "C:\\Users\\Ivaylo Kartev\\source\\repos\\AirHeroes\\AirHeroes\\AirHeroes.csproj",
+      "packagesPath": "C:\\Users\\Ivaylo Kartev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ivaylo Kartev\\source\\repos\\AirHeroes\\AirHeroes\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Ivaylo Kartev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Syncfusion.Presentation.Net.Core": {
+            "target": "Package",
+            "version": "[22.1.34, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

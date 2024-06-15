@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AirHeroes/1.0.0": {
+        "dependencies": {
+          "Syncfusion.Presentation.Net.Core": "22.1.34"
+        },
+        "runtime": {
+          "AirHeroes.dll": {}
+        }
+      },
+      "Syncfusion.Compression.Net.Core/22.1.34": {
+        "runtime": {
+          "lib/net6.0/Syncfusion.Compression.Portable.dll": {
+            "assemblyVersion": "22.1.34.0",
+            "fileVersion": "22.1.34.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/22.1.34": {
+        "runtime": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "22.1.34.0",
+            "fileVersion": "22.1.34.0"
+          }
+        }
+      },
+      "Syncfusion.OfficeChart.Net.Core/22.1.34": {
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "22.1.34"
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.OfficeChart.Portable.dll": {
+            "assemblyVersion": "22.1.34.0",
+            "fileVersion": "22.1.34.0"
+          }
+        }
+      },
+      "Syncfusion.Presentation.Net.Core/22.1.34": {
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "22.1.34",
+          "Syncfusion.Licensing": "22.1.34",
+          "Syncfusion.OfficeChart.Net.Core": "22.1.34"
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Presentation.Portable.dll": {
+            "assemblyVersion": "22.1.34.0",
+            "fileVersion": "22.1.34.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AirHeroes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Syncfusion.Compression.Net.Core/22.1.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6jCisV+WHSMxXRyB6jehTLB4GP+P3iCicRYwT86ypcEH+9foIGjOgBvr2Fkg0KkTeKBkmBeBheB50XnAytFobg==",
+      "path": "syncfusion.compression.net.core/22.1.34",
+      "hashPath": "syncfusion.compression.net.core.22.1.34.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/22.1.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jsvGrJgBc2KUMhUbLc1QPTqZkSHEZsUiPOcmu6DDvhYIV9cv1z83gohwHfmtFaRfBVezW7Dhn1qehHSOPIMo/w==",
+      "path": "syncfusion.licensing/22.1.34",
+      "hashPath": "syncfusion.licensing.22.1.34.nupkg.sha512"
+    },
+    "Syncfusion.OfficeChart.Net.Core/22.1.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jO+9Fjm65ctlJNtOJs2BmXH2240qI3uJfQfTmnz+H2OZ3kf1ljknz2XqKNxFuIZ2F0H8vCZNcWDYtlYw+d4pHA==",
+      "path": "syncfusion.officechart.net.core/22.1.34",
+      "hashPath": "syncfusion.officechart.net.core.22.1.34.nupkg.sha512"
+    },
+    "Syncfusion.Presentation.Net.Core/22.1.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kBWDxoknFKCPpbxR1jNW7cwjDZY721v2w3amzLH5KouN6nxhdfQqKoFodHw+TBCIg1YiDeOv5A0/Dx4eXcmaQg==",
+      "path": "syncfusion.presentation.net.core/22.1.34",
+      "hashPath": "syncfusion.presentation.net.core.22.1.34.nupkg.sha512"
+    }
+  }
+}
